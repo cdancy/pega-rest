@@ -1,0 +1,10 @@
+{  
+   "pxObjClass":"Pega-API-CaseManagement",
+   "errors":[  
+      {  
+         "ID":"Pega_API_022",
+         "message":"Use of TLS/SSL is required",
+         "pxObjClass":"Pega-API-Error"
+      }
+   ]
+}

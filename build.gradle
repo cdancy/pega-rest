@@ -103,6 +103,6 @@ task integTest(type: Test, dependsOn: ['mockTest']) {
         showStandardStreams = true
         events 'started', 'passed', 'failed'
     } 
-    systemProperties = ["test.pega.endpoint" : "${testPegaEndpoint}",
-                        "test.pega.credential" : "${testPegaCredential}"]
+    systemProperties = ["test.pega-rest.endpoint" : "${testPegaRestEndpoint}",
+                        "test.pega-rest.credential" : "${testPegaRestCredential}"]
 }
